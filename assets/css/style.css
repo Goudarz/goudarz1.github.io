@@ -1,0 +1,11 @@
+﻿body,html{width:100%;height:100%;margin:0;padding:0;background-color:#eee;color:#222;}
+body{font-family:'Roboto', sans-serif;}
+#container{text-align:center;position:absolute;left:0;right:0;top:-10em;bottom:0;margin:auto;width:27em;height:23em;}
+#name,h1{font-size:2.1em;letter-spacing:-2px;padding:0;margin:0;font-weight:100}
+#mail{font-size:1.15em;font-weight:300}
+.vcard{display:none;}
+a:link,a:visited{text-decoration:none;color:#222;}
+a:hover{text-decoration:underline;color:#555;}
+#info img{border-radius:100%;margin-bottom:10px;border:1px rgba(0,0,0,0.1) solid;}
+#mail span{margin:0;padding:0}
+#mail span::after{content:"•";}
